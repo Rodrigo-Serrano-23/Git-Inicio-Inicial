@@ -1,5 +1,37 @@
 Para inicializar el repositorio del proyecto
 git init
 
+Agregar archivos y carpetas al esenario de Git
+git add .
+
+Primer Commit
+
+git commit -m "Proyecto inicial"
+PERO NO VA ADEJAR PORQUE AY QUE PONER USUARIO y Email del Usuario Local que esta trabajando
+en el proyecto LOCAL. Hacer esto
+
+Primero: git config --global user.email "you@example.com" AQUI PONER SU EMAIL DE GITHUB
+Segundo: git config --global user.name "Your Name" AQUI PONER NOMBRE O ALIAS
+git commit -m "Proyecto inicial"
+
+Y ahora si se va a cargar
+
+git remote add origin https://github.com/Ro...ACAVAELUSUARIO/Git-Inicio-Inicial.git
+
+git push -u origin master
+
+Y SI ES LA PRIMERA VES LES VA A PEDIR QUE SE LOGEEN EN GITHUB PARA CONFIRMAR
+Luego ya estara subido la carpeta
+
+AHORA VAMOS AGREGAR COSAS Al proyecto y Confirmar los cambios
+
+git add.
+
+HACER UN NUEVO COMMIT PARA CONFIRMAR LOS CAMBIOS Y DEJAR UN TEXTO EXPLICANDO LOS CAMBIOS
+
+git commit -m "Se cambio el titulo y se agrego header+main+footer y h1,h2,h3"
+
+
+
 
 
