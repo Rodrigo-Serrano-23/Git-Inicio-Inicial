@@ -23,9 +23,9 @@ git push -u origin master
 Y SI ES LA PRIMERA VES LES VA A PEDIR QUE SE LOGEEN EN GITHUB PARA CONFIRMAR
 Luego ya estara subido la carpeta
 
-AHORA VAMOS AGREGAR COSAS Al proyecto y Confirmar los cambios
+AHORA VAMOS AGREGAR COSAS Al proyecto y Confirmar los cambios (git add . "Dejar ese espacio con el punto")
 
-git add.
+git add .
 
 HACER UN NUEVO COMMIT PARA CONFIRMAR LOS CAMBIOS Y DEJAR UN TEXTO EXPLICANDO LOS CAMBIOS
 
